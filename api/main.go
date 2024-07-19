@@ -7,7 +7,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
-// Function exported to Vercel
+// Handler is the exported function that Vercel will use
 func Handler() *fiber.App {
 	app := fiber.New()
 
